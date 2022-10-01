@@ -42,6 +42,11 @@
 - [`package.json`](package.json) contains nodemon configuration for hot reload
 - [`.vscode/launch.json`](.vscode/launch.json) launch configuration for debuggers
 
+# Modificando o arquivo docker-compose.yml
+
+- Mexa nos volumes caso queira adicionar alguma pasta fora da ``src``, exemplo de estrutura ``- ./app2.ts:/app2.ts``
+- Não se esqueça também de alterar o nodemonConfig watch no arquivo ``package.json`` para incluir a nova pasta ou arquivo
+
 # Credits
 
 <p>Florian Ludewig<a href="https://flolu.de/"></a></p>
