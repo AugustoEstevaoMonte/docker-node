@@ -5,10 +5,6 @@
   <br>
   <h1>Docker Typescript Debugging</h1>
   <p>Example for Debugging Node.js + Typescript Running inside Docker Containers with Hot Reload</p>
-  <a href="https://youtu.be/1WUoITRINf0">
-    <img width="320px" height="180px" src="https://img.youtube.com/vi/1WUoITRINf0/mqdefault.jpg" style="border-radius: 1rem;" />
-    <p>Watch the YouTube Tutorial</p>
-  </a>
 </div>
 
 # Features
@@ -37,7 +33,7 @@
 
 # Codebase
 
-- [`app1.ts`](app1.ts) simple Node.js server
+- [`src/server.ts`](app1.ts) simple Node.js server
 - [`app2.ts`](app2.ts) another simple Node.js server
 
 # Important files
@@ -47,5 +43,7 @@
 - [`.vscode/launch.json`](.vscode/launch.json) launch configuration for debuggers
 
 # Credits
+
+<h2>Florian Ludewig<a href="https://flolu.de/"></a></h2>
 
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
