@@ -44,6 +44,6 @@
 
 # Credits
 
-<h2>Florian Ludewig<a href="https://flolu.de/"></a></h2>
+<p>Florian Ludewig<a href="https://flolu.de/"></a></p>
 
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
