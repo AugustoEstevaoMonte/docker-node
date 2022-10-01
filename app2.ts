@@ -4,7 +4,7 @@ import express from 'express'
 const app2 = express()
 
 app2.get('*', (_req, res) => {
-  sendResponse(res, 'app2')
+  sendResponse(res, 'app222')
 })
 
 app2.listen(3000)

@@ -1,7 +1,7 @@
 {
   "private": true,
   "engines": {
-    "node": ">=14"
+    "node": ">=17"
   },
   "scripts": {
     "dev": "docker-compose -f docker-compose.yml up --build"
@@ -27,7 +27,9 @@
   },
   "nodemonConfig": {
     "watch": [
-      "app1.ts",
+      "src/*.ts",
+      "public/**/*.css",
+      "src/router/*.ts",
       "app2.ts",
       "lib1.ts"
     ],

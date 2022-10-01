@@ -1,20 +1,21 @@
 version: '3'
 services:
-  app1:
-    image: node:14
+  server:
+    image: node:18-alpine
     volumes:
       - ./node_modules:/node_modules
       - ./package.json:/package.json
       - ./tsconfig.json:/tsconfig.json
-      - ./app1.ts:/app1.ts
+      - ./src:/src
+      - ./public:/public
       - ./lib1.ts:/lib1.ts
     ports:
       - 3000:3000
       - 9229:9229
-    command: yarn nodemon --signal SIGINT --inspect=0.0.0.0:9229 --nolazy app1.ts
+    command: yarn nodemon --signal SIGINT --inspect=0.0.0.0:9229 --nolazy src/server.ts
 
   app2:
-    image: node:14
+    image: node:18-alpine
     volumes:
       - ./node_modules:/node_modules
       - ./package.json:/package.json
